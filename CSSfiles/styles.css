@@ -1,0 +1,54 @@
+#page-top{
+    background-color: black;
+}
+.title{
+    color: white;
+}
+.name{
+    color: rgb(230, 190, 34);
+    font-weight: bolder;
+}
+.tc{
+    background-color: rgb(235, 219, 219);
+}
+.poster{
+    color: brown;
+    font-size: 45pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+.ih{
+    font-size: 30pt;
+    color: tomato;
+    font-weight: bold;
+    text-align: center;
+
+}
+.me{
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 30pt;
+}
+.heading1{
+    color: brown;
+    font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.desc{
+    text-align: center;
+    font-size: 15pt;
+    color: tomato;
+    font-weight: bold;
+}
+#about{
+    background-color: white;
+    border: chartreuse;
+    
+}
+#more{
+    background-color: white;
+}
+#contact{
+    background-color: white;
+}
