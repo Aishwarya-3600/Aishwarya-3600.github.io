@@ -5,7 +5,7 @@
     color: white;
 }
 .name{
-    color: rgb(230, 190, 34);
+    color: rgb(13, 155, 238);
     font-weight: bolder;
 }
 .tc{
@@ -13,7 +13,7 @@
 }
 .poster{
     color: brown;
-    font-size: 45pt;
+    font-size: 60pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 
@@ -25,19 +25,22 @@
     text-align: center;
 
 }
+.buttons{
+    color: white;
+}
 .me{
     border-radius: 50%;
-    height: 150px;
+    height: 150pt;
     margin-bottom: 30pt;
 }
 .heading1{
     color: brown;
-    font-size: 30pt;
+    font-size: 45pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .desc{
     text-align: center;
-    font-size: 15pt;
+    font-size: 18pt;
     color: tomato;
     font-weight: bold;
 }
