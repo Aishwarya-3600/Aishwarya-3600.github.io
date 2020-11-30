@@ -2,7 +2,7 @@
 #page-top{
     background-color: rgb(128, 114, 114);
     background-image: url("../Images/bg-1.jpg");
-    display: flex;
+    
     
     
     
@@ -119,6 +119,7 @@
     color: rgb(22, 9, 9);
     font-size: 45pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
 }
 .desc{
     text-align: center;
