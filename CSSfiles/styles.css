@@ -1,6 +1,6 @@
 
 #page-top{
-    background-color: black;
+    background-color: rgb(128, 114, 114);
     background-image: url("../Images/bg-1.jpg");
     
     
@@ -149,3 +149,10 @@
     border-radius: 50%;
     color:white;
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    .bgimg {
+            background-image: none;
+}
+
+}
