@@ -1,52 +1,135 @@
+
 #page-top{
     background-color: black;
+    background-image: url("../Images/bg-1.jpg");
+    
+    
+    
+    
 }
 .title{
     color: white;
 }
 .name{
-    color: rgb(13, 155, 238);
+    color: rgb(19, 1, 1);
     font-weight: bolder;
 }
-.tc{
-    background-color: rgb(235, 219, 219);
-}
+
 .poster{
-    color: brown;
+    color:black;
     font-size: 60pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 
 }
+.main{
+    border-bottom:solid black ;
+    border-width: thick;
+
+}
+.navbar {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    font-weight: bolder;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: black;
+    padding: 1pt;
+    display:block;
+}
+.navbar-links li:hover{
+    background-color: gray;
+}
+.toggle-button{
+    position:absolute;
+    flex-direction: column;
+    top: 15pt;
+    right: 30pt;
+    width:30px;
+    height: 21px;
+    display: none;
+    justify-content: space-between;
+}
+.toggle-button .bar{
+    height: 3px;
+    width:100%;
+    background-color: rgb(2, 2, 2);
+    border-radius: 15%;
+}
+@media(max-width:600px){
+    .toggle-button{
+        display: flex;
+        
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: 3pt 3pt;
+        text-align: center;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+}
 .ih{
     font-size: 30pt;
-    color: tomato;
-    font-weight: bold;
+    color: rgb(15, 13, 13);
+    font-weight: bolder;
     text-align: center;
 
 }
 .buttons{
     color: white;
 }
+
 .me{
     border-radius: 50%;
-    height: 150pt;
-    margin-bottom: 30pt;
+    height: 210pt;
+    margin-top: 45pt;
+ 
 }
 .heading1{
-    color: brown;
+    color: rgb(22, 9, 9);
     font-size: 45pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .desc{
     text-align: center;
     font-size: 18pt;
-    color: tomato;
-    font-weight: bold;
+    color: darkblue;
+
+    
 }
+
 #about{
     background-color: white;
-    border: chartreuse;
+    
     
 }
 #more{
@@ -55,3 +138,14 @@
 #contact{
     background-color: white;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkblue;
+    width: fit-content;
+    border-radius: 50%;
+    color:white;
+  }
