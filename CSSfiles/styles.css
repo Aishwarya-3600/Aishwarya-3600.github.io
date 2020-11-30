@@ -2,6 +2,7 @@
 #page-top{
     background-color: rgb(128, 114, 114);
     background-image: url("../Images/bg-1.jpg");
+    display: flex;
     
     
     
@@ -153,6 +154,10 @@
 
     .bgimg {
             background-image: none;
+}
+.fa{
+    display: flex;
+    justify-content: center;
 }
 
 }
