@@ -1,6 +1,6 @@
 
 #page-top{
-    background-color: rgb(128, 114, 114);
+    /*background-color: rgb(128, 114, 114);*/
     background-image: url("../Images/bg-1.jpg");
     
     
@@ -126,17 +126,12 @@
     text-align: center;
     font-size: 18pt;
     color: darkblue;
-    grid-area: desc;
 
 
     
 }
 
-.division{
-    display: grid;
-    grid-template-columns: max-content;
-    grid-area: "me me" "desc desc";
-}
+
 
 #about{
     background-color: white;
@@ -162,11 +157,8 @@
   }
   @media (min-width: 768px) and (max-width: 991px) {
 
-    .bgimg {
+    #page-top {
             background-image: url("../Images/Background.jpg");
-}
-    .division{
-            display: flex;
     }
 
 
