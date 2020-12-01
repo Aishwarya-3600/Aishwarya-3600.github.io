@@ -163,7 +163,7 @@
   @media (min-width: 768px) and (max-width: 991px) {
 
     .bgimg {
-            background-image: none;
+            background-image: url("../Images/Background.jpg");
 }
     .division{
             display: flex;
