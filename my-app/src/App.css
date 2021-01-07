@@ -50,7 +50,7 @@
 .center-body{
   background-color: rgb(160, 80, 147);
   height: 90vh;
-  width: 24%;
+  width: 30%;
   text-align: center;
   border-radius: 10pt;
 }
@@ -92,7 +92,7 @@ button:hover{
   background-color: darkblue;
 }
 ol{
-  margin-left: 60px;
+  margin-left: 9px;
   font-weight: 900;
 
 }
@@ -108,8 +108,8 @@ li{
   align-items: center;
 }
 .todo_style .fa-times{
-  width : 21px;
-  height : 21px;
+  width : 24px;
+  height : 24px;
   border-radius: 50%;
   display : flex;
   justify-content: center;
@@ -118,6 +118,22 @@ li{
   color: white;
   font-size: 15px;
   background-color: rgb(0, 204, 255);
+  margin: 0 30px 0 30px;
+  
+  
+
+}
+.todo_style .fa-check{
+  width : 24px;
+  height : 24px;
+  border-radius: 50%;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  border-color: darkgreen;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(16, 230, 16);
   margin: 0 30px 0 30px;
   
   
@@ -136,10 +152,27 @@ li{
     justify-content : center;
     align-items: center;
   }
+  
   button{
     margin-left : 6px;
     min-height : 39px;
     width : 39px;
 
   }
+}
+.edit{
+  width:fit-content;
+  font-size:15px;
+  margin-left:24px;
+  margin-top:3px;
+}
+.form-control{
+  width:120px;
+}
+.done{
+  width:fit-content;
+  font-size:15px;
+  margin-left:45px;
+  margin-top:3px;
+  margin-left:9px;
 }
