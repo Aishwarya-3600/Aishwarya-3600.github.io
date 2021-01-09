@@ -142,24 +142,13 @@ li{
 .todo_style .fa-times:hover{
   background-color: darkblue;
 }
-@media (max-width : 768px){
-  .body{
-    width : 54%;
-  }
-  .todo_style .fa-times{
-    margin: 0 15px 0 15px;
-    display: flex;
-    justify-content : center;
-    align-items: center;
-  }
-  
-  button{
+button{
     margin-left : 6px;
     min-height : 39px;
     width : 39px;
 
   }
-}
+
 .edit{
   width:fit-content;
   font-size:15px;
