@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<title>Excercise</title>
+	<style type="text/css" media="screen">
+		table {
+			border-collapse: collapse;
+			border: 3px solid black;
+		}
+
+		table td,
+		th {
+			border: 3px solid black;
+		}
+
+		.glyphicon {
+			font-size: 30px;
+			color: black;
+			font-weight: bolder;
+		}
+
+		.badge {
+			background-color: aqua;
+			color: black;
+			font-size: 15pt;
+		}
+	</style>
+	<script src="./js files/validation.js"></script>
+</head>
+
+<body>
+
+	<header style="background-color:orange">
+
+		<img src="./Images/Alt-2.png" align="left" alt="Excercise well" width="180">
+		<img src="./Images/Right.jpeg" align = "Right" class="img-rounded" alt="Sorry" width="150">
+		<h3 style="text-align:center;background-color: rgb(247, 231, 8);"><b><big><big><big>Personal Workout
+							Routine</big></big></big></b></h3>
+		<br />
+		<div class="container " style="font-size: 15px;line-height: 1.5;">
+			<p style="color:darkblue;text-align:center"><big><b>This is my personal fitness map</b> </big> </p>
+			<p style="color:darkblue;text-align:center"><big><b>This webpage will tell which type of Workout i did for
+						the
+						day <br /> and will show various videos for the same </b></big></p>
+			<p style="color:darkblue;text-align:center"><big><b>At the end it will show the detials of calories burnt
+						and
+						number of steps </b> </big></p>
+		</div>
+		<br />
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Resources
+				<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+				<li><a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">Home</a></li>
+				<li><a href="#">Workouts</a></li>
+				<li><a href="#">Websites</a></li>
+			</ul>
+		</div>
+	</header>
+	<main style="background-color:rgb(255, 0, 128);font-size:15pt;font-style:bold; color: rgb(131, 50, 3);">
+		<div style="margin: auto;width:450px">
+			<ul>
+				<li><strong><code>Arms</code>,<code>chest</code> and <code>back</code>(Beginners) workout (<span
+							class="badge">6</span> sessions for <span class="badge">20</span>minutes each)</strong> </a>
+				</li>
+				<li><strong>Weight Loss(Beginners) Workout <br />(<span class="badge">6</span> sessions for <span
+							class="badge">30</span>minutes each)</strong></a></li>
+				<li><strong><code>Abs</code>,<code>Butt</code> and <code>thigh</code>(Beginners) Workout <br />(<span
+							class="badge">6</span> sessions for <span class="badge">15</span>minutes each)</strong></a>
+				</li>
+				<li><strong>Mobility 1 Workout <br />(<span class="badge">6</span> sessions for <span
+							class="badge">12.5</span>minutes each)</strong></a></li>
+				<li><strong>Get Strong (Beginners) <br /> (<span class="badge">6</span> sessions for <span
+							class="badge">15</span>minutes each)</strong></a></li>
+				<li><strong>Workout for teenagers <br />(<span class="badge">6</span> sessions for <span
+							class="badge">20</span>minutes each)</strong></a></li>
+				<li><strong>Dance fitness</strong></li>
+			</ul>
+			<div style="text-align: center;">
+				<a href="#" class="btn btn-info btn-lg">
+					<span class="glyphicon glyphicon-search ">Search</span>
+				</a>
+			</div>
+			<br />
+		</div>
+
+	</main>
+	<footer style="background-color:darkblue;font-size:15pt;color:white; height: 800;">
+	<table align="right" style="background-color: white; border: 1px solid;">
+			<thead>
+				<caption style="font-size: 21pt;color: white;text-align: center;"><strong>Ratings for the workout
+						done</strong></caption>
+			</thead>
+			<tfoot style="color: black;">
+				<tr>
+					<th>Number of calories (Kcal)</th>
+					<th>Number of steps</th>
+					<th>Rating</th>
+				</tr>
+				<tr>
+					<td>0 -75 </td>
+					<td>0 - 1000</td>
+					<td>Poor</td>
+				</tr>
+				<tr>
+					<td>76 - 150</td>
+					<td>1001 - 3000</td>
+					<td>Average</td>
+				</tr>
+				<tr>
+					<td>151 - 225</td>
+					<td>3001 - 5000</td>
+					<td>Good</td>
+				</tr>
+				<tr>
+					<td>226 - 300</td>
+					<td>5001 - 7000</td>
+					<td>
+						<p class="text-success"><strong>Very Good</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td>301 - 375</td>
+					<td>7001 - 9000</td>
+					<td>
+						<p class="text-success bg-success"><strong>Excellent</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td> > 375</td>
+					<td> > 9000</td>
+					<td>
+						<p class="text-success bg-success"><strong><strong>Outstanding</strong></strong></p>
+					</td>
+				</tr>
+			</tfoot>
+
+		</table>
+		<span>&emsp;&emsp;&emsp;</span>
+		<div class="row">
+			<div class="col-sm-6">
+				<form>
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" >
+					</div>
+					<div class="form-group" style="font-weight: bolder;">
+						<div class="container">
+							<p style="font-size: 15pt;">Gender:</p>
+							<form>
+							  <label class="radio-inline">
+								<input type="radio" name="optradio" checked>Male
+							  </label>
+							  <label class="radio-inline">
+								<input type="radio" name="optradio">Female
+							  </label>
+							</form>
+						  </div>
+						  <br/>
+						  <div class="form-group">
+							<label for="contact">Contact Number:</label>
+							<input type="text" class="form-control" id="contact" >
+						</div>
+						<label for="email">E-mail:</label>
+						<input type="email" class="form-control" id="email" >
+					</div>
+					<div class="form-group">
+						<label for="pwd">Password:</label>
+						<input type="password" class="form-control" id="pwd">
+					</div>
+					<div class="form-group">
+						<label for="date">Date:</label>
+						<input type="date" class="form-control" id="date">
+					</div>
+					<div class="form-group">
+						<label for="type">Workout type</label>
+						<input type="text" class="form-control" id="type">
+					</div>
+					<div class="form-group">
+						<label for="start">Start Time</label>
+						<input type="time" class="form-control" id="start">
+					</div>
+					<div class="form-group">
+						<label for="dur">Duration</label>
+						<input type="time" class="form-control" id="dur" step='1' min="00:00:00" max="2:00:00">
+					</div>
+					<div class="form-group">
+						<label for="end">End Time</label>
+						<input type="time" class="form-control" id="end">
+					</div>
+					
+					<div class="form-group">
+						<label for="steps">No of Steps:</label>
+						<input type="number" class="form-control" id="steps">
+					</div>
+					<div class="form-group">
+						<label for="cal">No of calories burnt:</label>
+						<input type="number" class="form-control" id="calories">
+					</div>
+					<div class="col-sm-10"></div>
+					<div>
+						<button type="submit" class="btn btn-default"
+							style="background-color: gray;color: black;font-weight: bolder;font-size: 21pt;" onclick="detail()">Submit</button>
+					</div>
+					<p id="sayText" style="display: none;">
+						I'm here
+					</p>
+				</form>
+			</div>
+		</div>
+		<br />
+		<div style="text-align: center;">
+			<a href="#" class="btn btn-info btn-lg">
+				<span class="glyphicon glyphicon-print ">Print</span>
+			</a>
+		</div>
+		<br />
+		<button data-toggle="collapse" data-target="#demo"
+			style="background-color: chartreuse;color: black;font-size: 15;text-align: center;"><strong>Workout
+				Complete</strong></button>
+
+		<div id="demo" class="collapse">
+			"Nothing feels better than a finished workout!"
+		</div>
+		<br />
+		</div>
+		<br />
+	</footer>
+	<div style="background-color: cyan;text-align: center;">
+		<br />
+		<img src= "./Images/Alt-1.jpg" class="img-circle" alt="No icon" width="240" height="270">
+		<span>&emsp;</span><span><span></span></span>
+		<img src="./Images/Crab Reach.jpeg" alt="Crab Reach" width="300">
+		<span>&emsp;</span>
+		<img src="./Images/Reverse Plank.jpg" alt="Reverse Plank" width="300">
+		<span>&emsp;</span>
+		<blockquote class="well ">
+			<p style="color: darkmagenta;font-weight: bolder;font-size: larger;"><kbd>"The Pain You Feel Today, will be
+					the strength you feel tomorrow!"</kbd></p>
+			<footer style="color: darkorchid;text-align: right;">From google.com</footer>
+		</blockquote>
+		<br /><br /><br />
+	</div>
+
+
+</body>
+
+</html>
